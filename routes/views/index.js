@@ -7,7 +7,7 @@ exports = module.exports = (req, res) => {
 	var locals = res.locals;
 
 	locals.moment = require('moment');
-	// locals.moment.locale('hu');
+	locals.moment.locale('hu');
 
 	locals.data = {
 		articles: [],

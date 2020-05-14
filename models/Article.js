@@ -15,8 +15,8 @@ Article.add({
 	title: { type: String, required: true, initial: true },
 	description: {
 		description: {
-			brief: { type: Types.Html, wysiwyg: true },
-			extended: { type: Types.Html, wysiwyg: true },
+			brief: { label: 'Description brief', type: Types.Html, wysiwyg: true },
+			extended: { label: 'Description extended', type: Types.Html, wysiwyg: true },
 		},
 	},
 	publishedAt: { type: Date, default: Date.now },
